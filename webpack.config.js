@@ -1,9 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 let config = {
-  // mode: 'development',
-  //or source-map
-  // devtool: 'eval-source-map',
   entry: './src/index.ts',
   //  it'll resolve when imports occur
   resolve: {
