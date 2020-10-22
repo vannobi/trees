@@ -78,7 +78,7 @@ const getColorLevels = (color: Color): number[] => {
   let arr = new Array<number>(8);
   for (let i = 0; i < 8; i++) {
     let index = 0;
-    const mask = 0x80 >> i;
+    const mask = 128 >> i;
     if (color.r & mask) {
       index |= 4;
     }
